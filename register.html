@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Register</title><link rel="stylesheet" href="style.css"></head>
+<body>
+  <header class="site-header"><div class="brand"><div class="logo">NM</div></div><nav class="nav"><a href="index.html">Home</a></nav><div class="header-right"><div class="toy" id="toy-register"></div></div></header>
+  <main class="container centered">
+    <section class="card form-card">
+      <h2>Create account</h2>
+      <form id="registerForm">
+        <label>Full name<input id="name" required></label>
+        <label>Email<input id="email" type="email" required></label>
+        <label>Password<input id="password" type="password" required></label>
+        <label>Confirm password<input id="confirm" type="password" required></label>
+        <div class="row"><button type="submit" class="btn btn-primary">Register</button></div>
+        <div id="reg-feedback" class="muted small"></div>
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer"><div>© 2025 NeoMart</div></footer>
+  <script src="js/script.js"></script>
+  <script src="js/validation.js" defer></script>
+</body>
+</html>

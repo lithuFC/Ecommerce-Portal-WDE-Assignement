@@ -1,0 +1,49 @@
+:root{--bg:#0b0d13;--card:#0f1720;--muted:#9aa6c1;--accent:#7c4dff}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;background:linear-gradient(180deg,#05060a,#0b0f17);color:#e6eef8;font-family:Inter,Arial,sans-serif}
+.container{max-width:1100px;margin:28px auto;padding:0 18px}
+.site-header{display:flex;align-items:center;justify-content:space-between;padding:14px 18px;background:linear-gradient(90deg,rgba(124,77,255,0.06),transparent)}
+.brand{display:flex;align-items:center;gap:12px}
+.logo{width:44px;height:44px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#5b2fff);display:flex;align-items:center;justify-content:center;font-weight:800;color:#fff}
+.nav{display:flex;gap:10px}
+.nav-link{color:var(--muted);text-decoration:none;padding:8px 10px;border-radius:8px;font-weight:600}
+.nav-link.active{background:rgba(124,77,255,0.08);color:#fff}
+.header-right{display:flex;align-items:center;gap:12px}
+.icon-btn{background:transparent;border:0;color:#fff;font-size:18px;cursor:pointer}
+.card{background:linear-gradient(180deg,rgba(255,255,255,0.02),transparent);border-radius:12px;padding:18px;margin-bottom:18px;box-shadow:0 6px 24px rgba(0,0,0,0.6)}
+.hero{text-align:center;padding:36px;border-radius:12px}
+.btn{display:inline-block;padding:8px 12px;border-radius:8px;background:rgba(255,255,255,0.03);color:#fff;border:1px solid rgba(255,255,255,0.03);cursor:pointer;text-decoration:none}
+.btn-primary{background:linear-gradient(90deg,var(--accent),#00d4ff);box-shadow:0 8px 30px rgba(124,77,255,0.12)}
+.controls .search-row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.controls input, .controls select{padding:8px;border-radius:8px;border:1px solid rgba(255,255,255,0.03);background:rgba(255,255,255,0.02);color:#eaf2ff}
+.product-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-top:12px}
+.product-card{padding:12px;border-radius:12px;transition:transform .2s,box-shadow .2s}
+.product-card:hover{transform:translateY(-6px);box-shadow:0 12px 40px rgba(0,0,0,0.6)}
+.product-card img{width:100%;height:160px;object-fit:cover;border-radius:10px;display:block}
+.small{font-size:13px}
+.muted{color:var(--muted)}
+.centered{display:flex;align-items:center;justify-content:center;min-height:60vh}
+.form-card label{display:block;margin:8px 0}
+.form-card input, .form-card textarea{width:100%;padding:8px;border-radius:8px;border:1px solid rgba(255,255,255,0.03);background:rgba(255,255,255,0.02);color:#eaf2ff}
+
+/* Improved toy and eyelid styling */
+.toy { width:84px; height:84px; display:inline-block; }
+.toy svg { width:84px; height:84px; }
+.toy .eyelid { fill:#0b0f17; transform-origin: center; transition: transform 0.12s ease; }
+.toy .eye { transition: transform 0.12s ease; }
+
+/* Wishlist layout fix */
+#wish-list { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:12px; margin-top:12px; }
+.product-meta { display:flex; justify-content:space-between; align-items:center; gap:8px; margin-top:8px; }
+
+/* Form and card alignment tweaks */
+.form-card { max-width:520px; margin:6px auto; }
+.card { padding:16px; }
+.container { max-width:1100px; margin:20px auto; padding:0 16px; }
+
+/* loader */
+.loader{width:44px;height:44px;border-radius:50%;background:linear-gradient(90deg,var(--accent),#b685ff);animation:rotate 1s linear infinite;margin:auto}
+@keyframes rotate{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}
+
+/* responsive */
+@media(max-width:760px){.nav{display:none}.site-header{padding:12px}}

@@ -1,0 +1,7 @@
+[
+  {"id":"p1","title":"Retro Backpack","price":999,"description":"Durable everyday backpack","category":"Accessories","image":"https://picsum.photos/seed/backpack-illustration/800/600"},
+  {"id":"p2","title":"Wireless Earbuds","price":1499,"description":"Noise-isolating earbuds","category":"Electronics","image":"https://picsum.photos/seed/earbuds-illustration/800/600"},
+  {"id":"p3","title":"Smart Lamp","price":899,"description":"Touch-control mood lamp","category":"Electronics","image":"https://picsum.photos/seed/lamp-illustration/800/600"},
+  {"id":"p4","title":"Classic Sneakers","price":2199,"description":"Comfortable running shoes","category":"Accessories","image":"https://picsum.photos/seed/sneakers-illustration/800/600"},
+  {"id":"p5","title":"Bluetooth Speaker","price":1299,"description":"Compact portable speaker","category":"Electronics","image":"https://picsum.photos/seed/speaker-illustration/800/600"}
+]
